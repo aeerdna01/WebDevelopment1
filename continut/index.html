@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Istoria muzicii</title>
+    <link rel="stylesheet" type="text/css" href="css/stil.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body onload="schimbaContinut('acasa')">
+    <header>
+        <div class="header-text">
+            <h1><i>Istoria muzicii</i></h1>
+            <h2><i>„Există un milion de moduri în care se poate povesti istoria muzicii. Aceasta este varianta mea” (Howard Goodall)</i></h2>
+        </div>
+        <img src="imagini/logo.jpg" alt="Istoria muzicii">
+    </header>
+
+    <nav>
+        <a onclick="schimbaContinut('acasa')">Acasă</a>
+        <a onclick="schimbaContinut('despre')">Despre</a>
+        <a onclick="schimbaContinut('inregistreaza')">Înregistrează</a>
+        <a onclick="schimbaContinut('video')">Video</a>
+        <a onclick="schimbaContinut('invat')">Învăț</a>
+        <a onclick="schimbaContinut('desen')">Desen</a>
+        <a onclick="schimbaContinut('persoane', 'js/persoane.js', 'incarcaPersoane')">Persoane</a>
+        <a onclick="schimbaContinut('verifica')">Verifică</a>
+        <a onclick="schimbaContinut('cumparaturi', 'js/cumparaturi.js')">Cumpărături</a>
+    </nav>
+
+    <main id="continut">
+
+    </main>
+    
+    <footer>
+        <div class="info">
+            <cite>&copy; Andreea Pîslariu - PW 2023</cite>
+        </div>
+    </footer>
+</body>
+
+</html>

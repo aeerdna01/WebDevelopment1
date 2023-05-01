@@ -1,0 +1,74 @@
+<section>
+    <div class="form-header">
+        <img src="imagini/notes.png" alt="notes">
+    </div>
+    <div class="form-body">
+        <h1 id="newsletter">Newsletter</h1>
+        <form id="inregistrare" method="post">
+            <fieldset>
+                <legend class="section-card">Informații generale</legend>
+                <label for="nume_utilizator">Nume utilizator: </label>
+                <input type="text" id="nume_utilizator"> <br>
+                <label for="parola">Parolă: </label>
+                <input type="password" id="parola"> <br>
+                <label for="nume">Nume: </label>
+                <input type="text" id="nume"> <br>
+                <label for="prenume">Prenume: </label>
+                <input type="text" id="prenume"> <br>
+                <label for="email">Email: </label>
+                <input type="email" id="email"> <br>
+                <label for="telefon">Telefon: </label>
+                <input type="tel" id="telefon"> <br>
+            </fieldset>
+
+            <fieldset>
+                <legend class="section-card">Informații despre muzică</legend>
+                <label for="perioada_muzicala">Perioada muzicală preferată:</label>
+                <input type="text" list="perioade" id="perioada_muzicala">
+                <datalist id="perioade">
+                    <option value="Preistorie">
+                    <option value="Antichitate">
+                    <option value="Evul Mediu">
+                    <option value="Renaștere">
+                    <option value="Baroc">
+                    <option value="Clasicism">
+                    <option value="Romantism">
+                    <option value="Modernism">
+                    <option value="Contemporan">
+                </datalist><br>
+                <label for="melodie_preferat">Melodie preferată:</label>
+                <input type="text" id="melodie_preferat"><br>
+                <label for="an_lansare">An lansare melodie preferată:</label>
+                <input type="number" id="an_lansare" min="1900" max="2023"><br>
+            </fieldset>
+
+            <fieldset>
+                <legend class="section-card">Informații personale</legend>
+                <label for="sex">Sexul: </label>
+                <select id="sex" >
+                    <option value="">Alegeți sexul</option>
+                    <option value="m">Masculin</option>
+                    <option value="f">Feminin</option>
+                </select> <br>
+                <label for="culoare">Culoarea preferată: </label>
+                <input type="color" id="culoare"> <br>
+                <label for="data_nasterii">Data nașterii: </label>
+                <input type="date" id="data_nasterii"> <br>
+                <label for="ora_nasterii">Ora nașterii: </label>
+                <input type="time" id="ora_nasterii" name="ora_nasterii"> <br>
+                <label for="varsta">Varsta: </label>
+                <input type="range" id="varsta" name="varsta" min="1"> <br>
+                <label id="varsta-selectata"></label>
+                <label for="pagina_personala">Adresa paginii personale: </label>
+                <input type="url" id="pagina_personala" name="pagina_personala"> <br>
+                <label for="feedback">Feedback: </label>
+                <textarea id="descriere" name="descriere" rows="3" cols="20"></textarea> <br>
+                <input type="checkbox" class="noHover" id="acord" name="acord" value="da" required>
+                <label for="acord">Sunt de acord cu termenii și condițiile.</label><br>
+            </fieldset>
+            <input type="submit" id="submit" value="Înregistrează" disabled>
+        </form>
+    </div>
+</section>
+<br>
+<br>

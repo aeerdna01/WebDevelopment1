@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="persoane">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="persoana" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nume" type="xs:string" />
+              <xs:element name="prenume" type="xs:string" />
+              <xs:element name="varsta" type="xs:positiveInteger" />
+              <xs:element name="adresa">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="strada" type="xs:string" />
+                    <xs:element name="numar" type="xs:string" />
+                    <xs:element name="localitate" type="xs:string" />
+                    <xs:element name="judet" type="xs:string" />
+                    <xs:element name="tara" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="cv">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="educatie">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="facultate" type="xs:string" />
+                          <xs:element name="liceu" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:positiveInteger" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

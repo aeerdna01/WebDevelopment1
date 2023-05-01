@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE persoane SYSTEM "persoane.dtd"> -->
+<persoane xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="persoane.xsd">
+    <persoana id="1">
+        <nume>Aluchienesei</nume>
+        <prenume>Georgiana</prenume>
+        <varsta>22</varsta>
+        <adresa>
+            <strada>Strada Trandafirului</strada>
+            <numar>Nr. 23</numar>
+            <localitate>Botoșani</localitate>
+            <judet>Botoșani</judet>
+            <tara>România</tara>
+        </adresa>
+        <cv>
+            <educatie>
+                <facultate>Facultatea de Automatică și Calculatoare</facultate>
+                <liceu>Colegiul Național ”A.T. Laurian”</liceu>
+            </educatie>
+        </cv>
+    </persoana>
+
+    <persoana id="2">
+        <nume>Roșca</nume>
+        <prenume>Ana-Maria Madalina</prenume>
+        <varsta>21</varsta>
+        <adresa>
+            <strada>Strada Mihai Eminescu</strada>
+            <numar>Nr. 17</numar>
+            <localitate>Iași</localitate>
+            <judet>Iași</judet>
+            <tara>România</tara>
+        </adresa>
+        <cv>
+            <educatie>
+                <facultate>Facultatea de Automatică și Calculatoare</facultate>
+                <liceu>Colegiul Național ”Vasile Alecsandri”</liceu>
+            </educatie>
+        </cv>
+    </persoana>
+
+    <persoana id="3">
+        <nume>Barbaliu</nume>
+        <prenume>Bianca Larisa</prenume>
+        <varsta>22</varsta>
+        <adresa>
+            <strada>Strada Crinului</strada>
+            <numar>Nr. 17</numar>
+            <localitate>Dorohoi</localitate>
+            <judet>Botoșani</judet>
+            <tara>România</tara>
+        </adresa>
+        <cv>
+            <educatie>
+                <facultate>Facultatea de Automatică și Calculatoare</facultate>
+                <liceu>Liceul ”Regina Maria”</liceu>
+            </educatie>
+        </cv>
+    </persoana>
+
+    <persoana id="4">
+        <nume>Hriscu</nume>
+        <prenume>Cornelia-Ștefana</prenume>
+        <varsta>21</varsta>
+        <adresa>
+            <strada>Strada Vasile Lupu</strada>
+            <numar>Nr. 17</numar>
+            <localitate>Iași</localitate>
+            <judet>Iași</judet>
+            <tara>România</tara>
+        </adresa>
+        <cv>
+            <educatie>
+                <facultate>Facultatea de Automatică și Calculatoare</facultate>
+                <liceu>Colegiul Național ”Vasile Alecsandri”</liceu>
+            </educatie>
+        </cv>
+    </persoana>
+
+    <persoana id="5">
+        <nume>Ganea</nume>
+        <prenume>Luiza-Andreea</prenume>
+        <varsta>21</varsta>
+        <adresa>
+            <strada>Strada Bujorului</strada>
+            <numar>Nr. 28</numar>
+            <localitate>Iași</localitate>
+            <judet>Iași</judet>
+            <tara>România</tara>
+        </adresa>
+        <cv>
+            <educatie>
+                <facultate>Facultatea de Automatică și Calculatoare</facultate>
+                <liceu>Colegiul Național ”Vasile Alecsandri”</liceu>
+            </educatie>
+        </cv>
+    </persoana>
+
+    <persoana id="6">
+        <nume>Hușman</nume>
+        <prenume>Carla-Gabriela</prenume>
+        <varsta>22</varsta>
+        <adresa>
+            <strada>Strada Pantelimon</strada>
+            <numar>Nr. 11</numar>
+            <localitate>Huși</localitate>
+            <judet>Vaslui</judet>
+            <tara>România</tara>
+        </adresa>
+        <cv>
+            <educatie>
+                <facultate>Facultatea de Automatică și Calculatoare</facultate>
+                <liceu>Colegiul Național ”Cuza Vodă”</liceu>
+            </educatie>
+        </cv>
+    </persoana>
+</persoane>
